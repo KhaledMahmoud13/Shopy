@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "792724638506",
+    "project_id": "shopy-33ba6",
+    "storage_bucket": "shopy-33ba6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792724638506:android:1e6728d572fb6c94eaec53",
+        "android_client_info": {
+          "package_name": "com.khaled.shopy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQpHW-T8OitPl2qbkWphA1ygmcsNYM8aI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
