@@ -16,6 +16,16 @@ Welcome to Shopy, where cutting-edge e-commerce meets personalized style. Dive i
 
 ## ScreenShots
 
+<img src="https://github.com/KhaledMahmoud13/Shopy/blob/main/screenshots/Apple%20iPhone%2011%20Pro%20Max%20Screenshot%201.png" height="500" width="250"/>&nbsp;&nbsp;
+<img src="https://github.com/KhaledMahmoud13/Shopy/blob/main/screenshots/Apple%20iPhone%2011%20Pro%20Max%20Screenshot%202.png" height="500" width="250"/>&nbsp;&nbsp;
+<img src="https://github.com/KhaledMahmoud13/Shopy/blob/main/screenshots/Apple%20iPhone%2011%20Pro%20Max%20Screenshot%203.png" height="500" width="250"/>&nbsp;&nbsp;
+<img src="https://github.com/KhaledMahmoud13/Shopy/blob/main/screenshots/Apple%20iPhone%2011%20Pro%20Max%20Screenshot%204.png" height="500" width="250"/>&nbsp;&nbsp;
+<img src="https://github.com/KhaledMahmoud13/Shopy/blob/main/screenshots/Apple%20iPhone%2011%20Pro%20Max%20Screenshot%206.png" height="500" width="250"/>&nbsp;&nbsp;
+<img src="https://github.com/KhaledMahmoud13/Shopy/blob/main/screenshots/Apple%20iPhone%2011%20Pro%20Max%20Screenshot%207.png" height="500" width="250"/>&nbsp;&nbsp;
+<img src="https://github.com/KhaledMahmoud13/Shopy/blob/main/screenshots/Apple%20iPhone%2011%20Pro%20Max%20Screenshot%208.png" height="500" width="250"/>&nbsp;&nbsp;
+<img src="https://github.com/KhaledMahmoud13/Shopy/blob/main/screenshots/Apple%20iPhone%2011%20Pro%20Max%20Screenshot%209.png" height="500" width="250"/>&nbsp;&nbsp;
+<img src="https://github.com/KhaledMahmoud13/Shopy/blob/main/screenshots/Apple%20iPhone%2011%20Pro%20Max%20Screenshot%2010.png" height="500" width="250"/>&nbsp;&nbsp;
+
 ## Built With
 
 * [Provider](https://pub.dev/packages/provider) - In Flutter, a provider is a state management solution that facilitates the sharing of data and functionality across the widget tree.
