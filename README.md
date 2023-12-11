@@ -20,6 +20,7 @@ Welcome to Shopy, where cutting-edge e-commerce meets personalized style. Dive i
 <img src="https://github.com/KhaledMahmoud13/Shopy/blob/main/screenshots/Apple%20iPhone%2011%20Pro%20Max%20Screenshot%202.png" height="500" width="250"/>&nbsp;&nbsp;
 <img src="https://github.com/KhaledMahmoud13/Shopy/blob/main/screenshots/Apple%20iPhone%2011%20Pro%20Max%20Screenshot%203.png" height="500" width="250"/>&nbsp;&nbsp;
 <img src="https://github.com/KhaledMahmoud13/Shopy/blob/main/screenshots/Apple%20iPhone%2011%20Pro%20Max%20Screenshot%204.png" height="500" width="250"/>&nbsp;&nbsp;
+<img src="https://github.com/KhaledMahmoud13/Shopy/blob/main/screenshots/Apple%20iPhone%2011%20Pro%20Max%20Screenshot%205.png" height="500" width="250"/>&nbsp;&nbsp;
 <img src="https://github.com/KhaledMahmoud13/Shopy/blob/main/screenshots/Apple%20iPhone%2011%20Pro%20Max%20Screenshot%206.png" height="500" width="250"/>&nbsp;&nbsp;
 <img src="https://github.com/KhaledMahmoud13/Shopy/blob/main/screenshots/Apple%20iPhone%2011%20Pro%20Max%20Screenshot%207.png" height="500" width="250"/>&nbsp;&nbsp;
 <img src="https://github.com/KhaledMahmoud13/Shopy/blob/main/screenshots/Apple%20iPhone%2011%20Pro%20Max%20Screenshot%208.png" height="500" width="250"/>&nbsp;&nbsp;
