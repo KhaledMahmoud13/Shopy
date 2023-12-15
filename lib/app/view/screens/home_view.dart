@@ -13,7 +13,6 @@ import 'package:shopy/core/resources/font_manager.dart';
 import 'package:shopy/core/resources/routes_manager.dart';
 import 'package:shopy/core/resources/strings_manager.dart';
 import 'package:shopy/core/resources/values_manager.dart';
-import 'package:shopy/core/util/utils.dart';
 
 class HomeView extends StatelessWidget {
   const HomeView({super.key});
@@ -67,34 +66,42 @@ class HomeView extends StatelessWidget {
                 style: Theme.of(context).textTheme.labelSmall,
               ),
               const SizedBox(height: FontSize.s30),
-              Text(
-                AppStrings.recommendation,
-                style: Theme.of(context).textTheme.labelLarge,
-              ),
-              const SizedBox(height: AppSize.s20),
-              SizedBox(
-                height: AppSize.s220,
-                child: ListView.separated(
-                  scrollDirection: Axis.horizontal,
-                  itemCount: shopViewModel.measurementData.length,
-                  separatorBuilder: (context, index) =>
-                      const SizedBox(width: AppSize.s10),
-                  itemBuilder: (context, index) {
-                    var item = shopViewModel.measurementData[index];
-                    return RecommendationItem(
-                      name: item.name,
-                      imageUrl: item.imageUrl,
-                      price: item.price.toString(),
-                      onPressed: () => Navigator.pushNamed(
-                        context,
-                        Routes.productDetailsRoute,
-                        arguments: item,
+              Visibility(
+                visible: shopViewModel.measurementData.isNotEmpty,
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      AppStrings.recommendation,
+                      style: Theme.of(context).textTheme.labelLarge,
+                    ),
+                    const SizedBox(height: AppSize.s20),
+                    SizedBox(
+                      height: AppSize.s220,
+                      child: ListView.separated(
+                        scrollDirection: Axis.horizontal,
+                        itemCount: shopViewModel.measurementData.length,
+                        separatorBuilder: (context, index) =>
+                            const SizedBox(width: AppSize.s10),
+                        itemBuilder: (context, index) {
+                          var item = shopViewModel.measurementData[index];
+                          return RecommendationItem(
+                            name: item.name,
+                            imageUrl: item.imageUrl,
+                            price: item.price.toString(),
+                            onPressed: () => Navigator.pushNamed(
+                              context,
+                              Routes.productDetailsRoute,
+                              arguments: item,
+                            ),
+                          );
+                        },
                       ),
-                    );
-                  },
+                    ),
+                    const SizedBox(height: AppSize.s10),
+                  ],
                 ),
               ),
-              const SizedBox(height: AppSize.s10),
               Text(
                 AppStrings.newArrival,
                 style: Theme.of(context).textTheme.labelLarge,

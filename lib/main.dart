@@ -9,15 +9,7 @@ import 'package:shopy/core/services/services_locator.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-    options: const FirebaseOptions(
-      apiKey: 'AIzaSyAQpHW-T8OitPl2qbkWphA1ygmcsNYM8aI',
-      appId: '1:792724638506:android:1e6728d572fb6c94eaec53',
-      messagingSenderId: '',
-      projectId: 'shopy-33ba6',
-      storageBucket: 'gs://shopy-33ba6.appspot.com',
-    ),
-  );
+  await Firebase.initializeApp();
   ServicesLocator().init();
   // await FirebaseAuth.instance.signOut();
   runApp(const MyApplication());

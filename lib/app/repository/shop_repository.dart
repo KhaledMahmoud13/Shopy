@@ -34,6 +34,9 @@ class ShopRepository {
         .orderByChild(Constants.weightChild)
         .equalTo(userWeight.getUserWeight());
     DatabaseEvent shopEvent = await query.once();
+    if(shopEvent.snapshot.value == null) {
+      return [];
+    }
     if (shopEvent.snapshot.value is List) {
       return List<Product>.from(
         (shopEvent.snapshot.value as List)
